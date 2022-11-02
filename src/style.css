@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-position: top;
+    background-size: 100vw auto;
+    background-image: url('images/bg.jpg');
+    display: flex;
+}
+
+#data {
+    width: 40vw;
+    height: 100vh;
+    background: rgba(255,255,255,.3);
+    backdrop-filter: blur(15px);
+    padding: 20px;
+}
+
+#city-name {
+    text-align: center;
+    font-weight: lighter;
+}
+
+#coords {
+    text-align: center;
+    font-size: 14px;
+}
+
+#temperature {
+    text-align: center;
+    font-size: 56px;
+}
+
+#feels-like {
+    text-align: center;
+}
+
+.temp-data {
+    margin-top: 140px;
+    margin-bottom: 60px;
+}
+
+#weather {
+    text-align: center;
+}
